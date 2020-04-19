@@ -1,7 +1,6 @@
-#IoT 2020 Big Project
+# IoT 2020 Big Project
 
-# name of the project: Interest Detector
-
+# name of the project: name of proj
 # people partectipating
 Giuliano Martinelli  https://www.linkedin.com/in/giuliano-martinelli-20a9b2193/
 Mattia Pocci  https://www.linkedin.com/in/mattia-pocci-b96232187/
@@ -13,7 +12,4 @@ bla bla bla
 # link to the documents
 2
 3
-4
-5
-
 
