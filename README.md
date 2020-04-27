@@ -1,6 +1,5 @@
-# IoT 2020 Big Project
+# Name of the Project: InteractiPedia
 
-# Name of the Project: TO DO
 # People Partectipating
 Giuliano Martinelli  >https://www.linkedin.com/in/giuliano-martinelli-20a9b2193/
 Mattia Pocci  >https://www.linkedin.com/in/mattia-pocci-b96232187/
@@ -15,7 +14,7 @@ The web application will provide useful insights based on the use of the system 
 
 
 # link to the documents
-
+Documents can be found in the repository above
 
 
 
