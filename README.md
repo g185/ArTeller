@@ -1,4 +1,4 @@
-# Name of the Project: InteractiPedia
+# InteractiPedia
 
 # People Partectipating
 Giuliano Martinelli  >https://www.linkedin.com/in/giuliano-martinelli-20a9b2193/
