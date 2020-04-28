@@ -1,9 +1,10 @@
 # InteractiPedia
 
 # People Partectipating
-Giuliano Martinelli  >https://www.linkedin.com/in/giuliano-martinelli-20a9b2193/
-Mattia Pocci  >https://www.linkedin.com/in/mattia-pocci-b96232187/
-Marco Cerino >https://www.linkedin.com/in/marco-cerino-696369197/
+[Giuliano Martinelli](https://www.linkedin.com/in/giuliano-martinelli-20a9b2193)
+
+[Mattia Pocci](https://www.linkedin.com/in/mattia-pocci-b96232187/)
+[Marco Cerino](https://www.linkedin.com/in/marco-cerino-696369197/)
 
 # Brief Decription
 
