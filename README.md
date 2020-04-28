@@ -2,9 +2,10 @@
 
 
 ## Brief Decription
-In our idea we would like to locate nearby the different statues a QR code that the user can scan using his personal smartphone.
-Once scanned, a web application will present useful information about the statue that can be downloaded by the user.
-Furthemore, the scan will trigger an actuator that will perform an action (as trigger lights, sounds, records etc..)
+Our goal is to build a all-in-one service that make a visit more interasting and insightful. 
+The idea consist in locating nearby the operas a QR code that the user can scan using his personal smartphone.
+Once scanned, a web application will present useful information about the opera that can be downloaded by the user.
+Furthemore, the scan will trigger an actuator that will perform an action (as trigger different lights, records or change luminosity) in order to give a feedback to the user
 The web application will provide useful insights based on the use of the system to the manager.
 
 
