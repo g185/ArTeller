@@ -1,22 +1,27 @@
 # InteractiPedia
 
 
-# Brief Decription
+## Brief Decription
 In our idea we would like to locate nearby the different statues a QR code that the user can scan using his personal smartphone.
 Once scanned, a web application will present useful information about the statue that can be downloaded by the user.
 Furthemore, the scan will trigger an actuator that will perform an action (as trigger lights, sounds, records etc..)
 The web application will provide useful insights based on the use of the system to the manager.
 
 
-# Details
-Documents can be found in the repository above
+## Details
 
-# Video Demostrations
-### Video presentations
+[Design](Design.md)
+
+[Architecture](Architecture.md)
+
+[Evaluation](Evaluation.md)
+
+
+## Video Demostrations
 
 [Product idea and Evaluation plan](youtube.com)
 
-[Architecture and technical structure](youtube.com
+[Architecture and technical structure](youtube.com)
 
 ## Authors
 [Giuliano Martinelli](https://www.linkedin.com/in/giuliano-martinelli-20a9b2193)
