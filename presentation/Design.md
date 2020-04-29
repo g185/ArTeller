@@ -21,4 +21,4 @@ He is in a school trip at the museum. As every teenager he loves to be able to i
 ![Storyboard1](https://github.com/g185/SmartMuseum/blob/master/assets/Storyboard1.jpg)
 
 2.An elementary school class is on a school trip at the museum. The kids are not really interested in the artworks, therefore they are very distracted; untill one of the statue starts to talk and tell them its story.
-![Soìtoryboard2](https://github.com/g185/SmartMuseum/blob/master/assets/Storyboard2.jpg)
+![Soìtoryboard2](https://github.com/g185/SmartMuseum/blob/master/assets/Storyboard2.png)
