@@ -1,4 +1,4 @@
-# EVALUATION 
+# Evaluation
 
 ## Face Recognition
 For this aspect of the project we will evaluate the following:
