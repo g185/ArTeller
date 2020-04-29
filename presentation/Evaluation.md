@@ -3,30 +3,28 @@
 ## Face Recognition
 For this aspect of the project we will evaluate the following:
 	
-	1. Face Recognition speed
+	1. Face Recognition speed, the time period that occurs between the moment in which the user is front of the camera and when the face is detected. Measured in milliseconds. It would be considered a success if it is under 2000ms
 
-	2. Number of false positives
+	2. Number of false positives, the system has to be triggered only if the person is interested in the statue. A person that is just walking nearby would not trigger the system. It is an heuristic measure, a good threshold could be at 90%
 
-	3. Number of false negatives
+	3. Number of false negatives, the system must be triggered if a user is standing in front of the camera sensor. It is an heuristic measure too, and a good threshold could be at 90%
 
-## Talking Sculptures
+## Speakers
 For this aspect of ArTeller we will evaluate the following:
 
-	1. Loudness of the speaker
+	1. Loudness of the speaker, measured in dB. The speaker must not be too loud in order to not annoy uninterested people
 	
-	2. Interferences within multiple speakers
+	2. Interferences within multiple speakers. Nearby speakers must not interfere with each other, it is an heuristic measure. This should be guaranteed by our priority management algorithm
 	
-## MQTT
+## Local MQTT
 Concerning the MQTT part, we will evaluate the following:
 
-	1. Responsiveness of the application
+	1. Latency. The local broker must be fast in order to execute our priority algorithm in a responsive way. It is measured in milliseconds and an acceptance threshold could be x ms
 	
 ## AWS Backend
 For what regards the AWS based backend we will evaluate the following:
-
-	1. Usefulness of provided insights
 	
-	2. Latency
+	1. Latency. The remote broker must be fast (though not as fast as the local one) in order to generate insights for the museum manager. It is measured in milliseconds and an acceptance threshold could be x ms
 
 ## Test
 In order to test our solution, since we cannot have access to real devices due to the Covid-19 emergency, we will proceed in this way:
