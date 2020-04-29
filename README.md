@@ -13,7 +13,7 @@ The web application will provide useful insights based on the use of the system 
 
 [Design](https://github.com/g185/SmartMuseum/blob/master/presentation/Design.md)
 
-[Architecture](https://github.com/g185/SmartMuseum/blob/master/presentation/Architecture.jpg)
+[Architecture](https://github.com/g185/SmartMuseum/blob/master/presentation/Architecture.md)
 
 [Evaluation](https://github.com/g185/SmartMuseum/blob/master/presentation/Evaluation.md)
 
