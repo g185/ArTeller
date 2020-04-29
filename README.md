@@ -11,11 +11,11 @@ The web application will provide useful insights based on the use of the system 
 
 ## Details
 
-[Design](Design.md)
+[Design](https://github.com/g185/SmartMuseum/blob/master/presentation/Design.md)
 
-[Architecture](Architecture.md)
+[Architecture](https://github.com/g185/SmartMuseum/blob/master/presentation/Architecture.jpg)
 
-[Evaluation](Evaluation.md)
+[Evaluation](https://github.com/g185/SmartMuseum/blob/master/presentation/Evaluation.md)
 
 
 ## Video Demostrations
