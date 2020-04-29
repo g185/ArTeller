@@ -16,9 +16,9 @@ This application will be accessible by the museum manager in order to retrieve m
 
 # Video Demostrations
 
-[Product idea and Evaluation plan](youtube.com)
+[Product idea and Evaluation plan](www.youtube.com)
 
-[Architecture and technical structure](youtube.com)
+[Architecture and technical structure](www.youtube.com)
 
 # Authors
 [Giuliano Martinelli](https://www.linkedin.com/in/giuliano-martinelli-20a9b2193)
