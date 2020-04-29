@@ -17,8 +17,8 @@ He is in a school trip at the museum. As every teenager he loves to be able to i
 
 # Storyboards 
 
-1. Margherita has a new statue and has to place it in a Museum room. In this room there is no place for another statue, so she needs to understand which one is less interesting. She uses the statistics displayed in the application in order to decide which one she can replace. Once she sees that statue_1 produces less interest, she replaces it with the new statue.
+1. Margherita has a new statue and has to place it in a Museum room. In this room there is no place for another statue, so she needs to understand which one of the current operas is less interesting from the point of view of the visitors. She uses the statistics displayed in the application in order to decide which one she can replace. Once she sees that statue_1 produces less interest, she replaces it with the new statue.
 ![Storyboard1](https://github.com/g185/SmartMuseum/blob/master/assets/Storyboard1.jpg)
 
-2.An elementary school class is on a school trip at the museum. The kids are not really interested in the artworks, therefore they are very distracted; untill one of the statue starts to talk and tell them its story.
+2. An elementary school class is on a school trip at the museum. The kids, as always, don't show interest in the artworks, and are very distracted.. This untill one of the statue starts to talk and tell them its story, making thew experience more interactive and producing curiosity.
 ![Soìtoryboard2](https://github.com/g185/SmartMuseum/blob/master/assets/Storyboard2.png)
