@@ -1,4 +1,5 @@
-# InteractiPedia
+# ArTeller
+![logo](https://github.com/g185/SmartMuseum/blob/master/assets/logo.png)
 
 
 ## Brief Decription
