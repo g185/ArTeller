@@ -6,12 +6,14 @@ In the following Mark Down document we have collected different User Personas an
 
 1. 23 yo female Art student "Annah".
 She attends Art at Sapienza University and wants to see the sculptures she is studying from a closer point of view. 
+![Annah](https://github.com/g185/SmartMuseum/blob/master/assets/Annah.jpg)
 
 2. 50 yo female museum manager "Margherita".
 She manages the museum and is interested in the appeal offered by the different sculptures.  
 
 3. 14 yo male student "Simone".
 He is in a school trip at the museum. As every teenager he loves to be able to interact with everything using her smartphone.
+![Simone](https://github.com/g185/SmartMuseum/blob/master/assets/Simone.png)
 
 # Storyboards 
 
