@@ -29,7 +29,7 @@ For what regards the AWS based backend we will evaluate the following:
 	2. Latency
 
 ## Test
-In order to test our solution, since we cannot have real devices due to the Covid-19 emergency, we will proceed in this way:
+In order to test our solution, since we cannot have access to real devices due to the Covid-19 emergency, we will proceed in this way:
 
 	1. Face Recognition: we will test our face recognition technology using the webacams on our laptops
 
