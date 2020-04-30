@@ -20,6 +20,12 @@ This application will be accessible by the museum manager in order to retrieve m
 
 [Architecture and technical structure](www.youtube.com)
 
+# Slides Presentations
+
+[Product idea and Evaluation plan](https://docs.google.com/presentation/d/1HV37ZbVRc_sqig5hRIGp1rsgIbGLch3qivA0lyEr9JA/edit?usp=sharing)
+
+[Architecture and technical structure](https://docs.google.com/presentation/d/1UsIeK5fOotOYBwBqqkLFyfrJRJO8R-G4MncNsd5cAZ0/edit?usp=sharing)
+
 # Authors
 [Giuliano Martinelli](https://www.linkedin.com/in/giuliano-martinelli-20a9b2193)
 
