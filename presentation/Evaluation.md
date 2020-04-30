@@ -34,3 +34,13 @@ In order to test our solution, since we cannot have access to real devices due t
 	2. MQTT architecture: we will test the MQTT architecture using Iot-Lab
 
 	3. Cloud infrastructure: deployed on AWS
+	
+## User Experience
+To evaluate the user experience we will use a review based method oh a questionary that will be handed to visitors at the end of the museum visit.
+Some heuristics will be:
+
+	1. The system is prevedible
+	
+	2. The system is consistent
+	
+	2. The system gives an approvated feed-back
