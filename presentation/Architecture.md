@@ -1,20 +1,23 @@
 # Architecture
 
 ![architecture](https://github.com/g185/SmartMuseum/blob/master/assets/architecture.png)
-# IoT Edge Infrastructure
 
+# IoT Edge Infrastructure
 ## Webcam sensor
-Retrieves pictures every x seconds and sends them to the STM32 Nucleo board.
+Retrieves images and sends them to the STM32 Nucleo board
+
 ## Speaker
-Plays the audio description of the statue whenever a user is looking at it
+Plays the audio description of the statue when the system is correctly triggered
+
 ## STM32 Nucleo board
-Processes the incoming images to detect faces. Whenever one or more faces are detected it will check if any nearby statue is speaking. If it is not the case, it will wait and listen for MQTT messages for a time interval of 2t (where t is the round trip time of MQTT messages from nearby statues). If it has not received anything, it will send an MQTT message on his own topic and it will proceed to play the audio description.
+Processes the incoming images to detect faces. The system will start the activation protocol whenever it detects an interested face. In order to define an "interested" face, we will adjust different parameters for example distance or detection time.
+
+After detection, it will check if any of the nearby statues is currently speaking. If it is not the case, it will wait and listen for MQTT messages for a time interval of 2t (where t is the round trip time of MQTT messages from nearby statues). If it has not received anything, it will send an MQTT message on his own topic and it will proceed to play the audio description.
 
 ## Local MQTT broker
 It handles every local exchanged message between different STM32 Nucleo boards. Through this element, every board will subscribe to the topics of nearby statues (because if they transmit the audio description simultaneously, interference may happen). We decided to include a local MQTT broker (instead of using only the remote one) in order to reduce latency. Furthermore, this component will forward every received message to the AWS MQTT broker.
 
 # Cloud Infrastructure
-
 ## AWS MQTT broker
 We are using the MQTT broker provided by Amazon Web Services in order to retrieve messages from the museum. Using AWS IoT Core we will forward the information received to the different topics directly to DynamoDB.
 
