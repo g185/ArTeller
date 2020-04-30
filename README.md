@@ -16,7 +16,7 @@ This application will be accessible by the museum manager in order to retrieve m
 
 # Video Demostrations
 
-[Product idea and Evaluation plan](www.youtube.com)
+[Product idea and Evaluation plan](https://www.youtube.com/watch?v=UAIXfbrs9bc&feature=youtu.be)
 
 [Architecture and technical structure](www.youtube.com)
 
