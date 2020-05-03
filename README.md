@@ -33,7 +33,9 @@ This application will be accessible by the museum manager in order to retrieve m
 
 [Marco Cerino](https://www.linkedin.com/in/marco-cerino-696369197/)
 
+# Design Advisor
 
+[Pegah Pedramfar](https://www.linkedin.com/in/pegah-pedramfar-71a636101)
 
 
 
