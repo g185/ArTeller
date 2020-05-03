@@ -29,3 +29,9 @@
  change design file in order to make clear that we based our personas on real ones
  
  (?)in which way?
+ 
+ 
+ ## Redesign the mqtt protocol between the nodes
+(?) is it really usefull? there will never be a real application in which we will use them all togheter because of costs
+toDo:
+redesign architecture md
