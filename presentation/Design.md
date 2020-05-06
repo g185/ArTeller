@@ -12,7 +12,7 @@ We will also implement a priority queue between statues that are located nearby,
 Once the system is triggered by interested visitors, lt will start to play the audiodescription for the given opera. A web application will be accessible by the museum manager in order to retrieve meaningful statistics about the different engagement rates of the operas.
 
 ## User Personas
-
+The following personas are based on questions made to real people.
 1. 23 yo female Art student "Annah".
 She attends Art at Sapienza University and wants to see the sculptures she is studying from a closer point of view. 
 ![Annah](https://github.com/g185/SmartMuseum/blob/master/assets/Annah.jpg)
