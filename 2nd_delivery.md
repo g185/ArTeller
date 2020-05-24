@@ -1,7 +1,31 @@
 # 2nd Delivery
-- The comments that you received during the 1st delivery and how you have addressed them (if you decided/managed to address them). You should justify your decisions.
-- Changes made to your design, architecture and evaluation plan since the 1st delivery. You should justify the need for these changes.
-- Brief presentation of the technical work done since the 1st delivery.
-- A brief list of the functionality that is still missing and will be done till the 3rd and final delivery.
-- Brief presentation of the evaluation conducted since the 1st delivery.
-- A brief list of what you aspect to evaluate till the 3rd and final delivery.
+
+## Comments received and decisions
+
+-Is face recognition too much for proximity?
+
+-Customization for kids vs adults could be a nice feature and justify the use of face recognition. 
+
+-Include the designer in the README.
+We included her
+
+
+## Changes made to design, architecture and evaluation plan since 1st delivery
+
+-Thingsboard?
+
+-Proximity sensors?
+
+-possibility to contact the stations via mqtt without flashing them? useful and ioannis a rota.
+
+
+## Brief presentation of the technical work done since 1st delivery
+
+
+## List of functionalities that are missing and will be completed for the final delivery
+
+
+## Evaluation conducted fince the 1st delivery
+
+
+## Expected evaluation for the final delivery
