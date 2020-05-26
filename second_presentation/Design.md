@@ -1,15 +1,17 @@
 # Design
 
 In the following Mark Down document we have collected different User Personas, that are based on several iteration of surveys from some real people interests and Storyboards for our Smart Museum project.
-## Description TO DO
+
+## Description
 The aim of ArTeller is to provide a free audioguide service to the Sapienza Museum visitors, while providing useful insights to the museum manager. We believe that this service will make the museum visit more interesting and interactive, particularly for students and kids.
 
-The idea consists in locating a device in proximity of each statue which will look for interested people through face detection. 
-Our goal is to make this detection accurate as it can be, in order to avoid the people not interested to trigger the system.
+The idea consists in locating a device in proximity of each statue which will look for interested people using proximity sensors.
+Our goal is to distinguish kids from adults using their height, in order to give them a personalized audioguide.
+Once the proximity system is triggered by interested visitors, lt will start to play the audiodescription for the given opera.
 
-We will also implement a priority queue between statues that are located nearby, in order to avoid sounds from different speakers overlapping.
+The devices that are located under the statues will be also used to leave a "message in the bottle": An audio message that the visitors can record for the next users.
 
-Once the system is triggered by interested visitors, lt will start to play the audiodescription for the given opera. A web application will be accessible by the museum manager in order to retrieve meaningful statistics about the different engagement rates of the operas.
+A web application will be accessible by the museum manager in order to retrieve meaningful statistics about the different engagement rates of the operas.
 
 ## User Personas 
 The following personas are based on questions made to real people.
