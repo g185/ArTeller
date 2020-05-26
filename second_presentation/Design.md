@@ -11,7 +11,7 @@ We will also implement a priority queue between statues that are located nearby,
 
 Once the system is triggered by interested visitors, lt will start to play the audiodescription for the given opera. A web application will be accessible by the museum manager in order to retrieve meaningful statistics about the different engagement rates of the operas.
 
-## User Personas DONE
+## User Personas 
 The following personas are based on questions made to real people.
 1. 23 yo female Art student "Annah".
 She attends Art at Sapienza University and wants to see the sculptures she is studying from a closer point of view. 
@@ -33,7 +33,7 @@ He is in a school trip at the museum. As every teenager he loves to be able to i
 
 ![Simone2](https://github.com/g185/SmartMuseum/blob/master/assets/Simone2.jpg)
 
-## Storyboards DONE
+## Storyboards
 
 1. Margherita has a new statue and has to place it in a Museum room. In this room there is no place for another statue, so she needs to understand which one of the current operas is less interesting from the point of view of the visitors. She uses the statistics displayed in the application in order to decide which one she can replace. Once she sees that statue_1 produces less interest, she replaces it with the new statue.
 ![Storyboard1](https://github.com/g185/SmartMuseum/blob/master/assets/Storyboard1.jpg)
