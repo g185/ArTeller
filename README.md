@@ -20,11 +20,11 @@ This application will be accessible by the museum manager in order to retrieve m
 # First Delivery
 ## Details
 
-[Design](https://github.com/g185/SmartMuseum/blob/master/presentation/Design.md)
+[Design](https://github.com/g185/SmartMuseum/blob/master/first_presentation/Design.md)
 
-[Architecture](https://github.com/g185/SmartMuseum/blob/master/presentation/Architecture.md)
+[Architecture](https://github.com/g185/SmartMuseum/blob/master/first_presentation/Architecture.md)
 
-[Evaluation](https://github.com/g185/SmartMuseum/blob/master/presentation/Evaluation.md)
+[Evaluation](https://github.com/g185/SmartMuseum/blob/master/first_presentation/Evaluation.md)
 
 
 ## Video Demostrations
