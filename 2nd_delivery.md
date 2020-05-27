@@ -13,10 +13,7 @@ We did it.
 
 
 ## Changes made to design, architecture and evaluation plan since 1st delivery
-Design: The design was impacted by the decision to change sensors. We now will use proximity sensors in order to detect the presence of people. In order to have a different audioguide for kids we will detect height of the user. The motivations for this choiche are different: The difficulty of face recognition would lead the processing to last too much time. 
-
-The price of the sensors, processing power, energy consumption and performances will all benefit from this change.
-
+Design: The design was impacted by the decision to change sensors. We now will use proximity sensors in order to detect the presence of people. In order to have a different audioguide for kids we will detect height of the user. The motivations for this choiche are different: The difficulty of face recognition would lead the processing to last too much time. The energy consumption of the processing for face detection was higher. The overall precision and performance in term of latency will be upgraded. The price of the boards and the sensor will be less since the processing required will decreass.
 We also are planning to introduce the functionality "Message in the bottle" so that the users will be able to leave a short audiomessage to the next visitors. 
 
 Architecture:
