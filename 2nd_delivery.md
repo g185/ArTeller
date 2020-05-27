@@ -39,11 +39,11 @@ Finally, we tested the functionalityes of the buttons, in order to trigger diffe
 ## List of functionalities that are missing and will be completed for the final delivery
 We will create a clean and private dashboard using thingsboard, that will represent the different statistics for each statue using different devices
 
- We thought of adding a "Message in the bottle" functionality that will be triggered by button clicks
+We thought of adding a "Message in the bottle" functionality that will be triggered by button clicks
 
 The board wil be able to play an audiomessage.
 
-The board will be able to play different audiomassages for kids and adults
+The board will be able to play different audiomassages for kids and adults.
 
 
 ## Evaluation conducted since the 1st delivery
