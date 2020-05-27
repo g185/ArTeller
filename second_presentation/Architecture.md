@@ -3,19 +3,14 @@
 ![architecture](https://github.com/g185/SmartMuseum/blob/master/assets/architecture_2.png)
 
 # IoT Edge Infrastructure
-## 
-Retrieves images and sends them to the STM32 Nucleo board
+## Ultrasonic Proximity Sensor
+Retrieves proximity values and sends them to the STM32 Nucleo board
 
 ## Speaker
 Plays the audio description of the statue when the system is correctly triggered
 
 ## STM32 Nucleo board
-Processes the incoming images to detect faces. The system will start the activation protocol whenever it detects an interested face. In order to define an "interested" face, we will adjust different parameters for example distance or detection time.
-
-After detection, it will check if any of the nearby statues is currently speaking. If it is not the case, it will wait and listen for MQTT messages for a time interval of 2t (where t is the round trip time of MQTT messages from nearby statues). If it has not received anything, it will send an MQTT message on his own topic and it will proceed to play the audio description.
-
-## Local MQTT broker
-It handles every local exchanged message between different STM32 Nucleo boards. Through this element, every board will subscribe to the topics of nearby statues (because if they transmit the audio description simultaneously, interference may happen). We decided to include a local MQTT broker (instead of using only the remote one) in order to reduce latency. Furthermore, this component will forward every received message to the AWS MQTT broker.
+Processes the incoming proximity values to detect people. The system will start the activation protocol whenever it detects an interested user. In order to define an "interested" user, we will use an algorithm that will also detect the height of the visitor, in ordder to play a different audio track.
 
 # Cloud Infrastructure
 ## AWS MQTT broker
