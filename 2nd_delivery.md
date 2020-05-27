@@ -24,8 +24,7 @@ The main difference from the architecture we thought at the beginning, is in the
 For what regards the boards-sensors architecture, we eliminated the use of the camera, introducing 2 height sensors in order to detect proximity and height of a visitor. We will also use the speaker via the AUDIO-OUT AUX port of the board. We will then introduce the buttons for the Message functionalit.
 
 Evaluation: 
-Some evaluation of the new sensors include the sensor detection distance and latency, but overall the final product evaluation remains the same.
-
+Some evaluation of the new sensors include the sensor detection distance and latency.
 The evaluation process of the cloud service remains the same with Thingsboard: we will test the latency of the mqtt messages.
 
 ## Brief presentation of the technical work done since 1st delivery
