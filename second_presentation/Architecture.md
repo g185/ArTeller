@@ -14,4 +14,4 @@ Processes the incoming proximity values to detect people. The system will start 
 
 # Cloud Infrastructure
 ## Thingsboard
-We will use Thingsboard MQTT broker in order to retrieve messages from the museum. we will then display them using the device deashboards that can be implemented with different widget and statistics from Thingsboard administrator. 
+We will use Thingsboard MQTT broker in order to retrieve messages from the museum. we will then display them using the device dashboards that can be implemented with different widget and statistics from Thingsboard administrator. 
