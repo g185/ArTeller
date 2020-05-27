@@ -57,5 +57,5 @@ For the proximity sensors aspects we will evaluate: time for the detection, numb
 
 For the Speaker we will measure: Loudness of the speaker, measured in dB
 
-Latency to the Local MQTT
+
 
