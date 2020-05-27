@@ -6,7 +6,7 @@
 Even if face recognition was a challenging part of our project, we decided that it was really an utopy to run it on a constrained device without really long latency time. We decided to use proximity sensors that were better under a lot of perspectives.
 
 -*Customization for kids vs adults could be a nice feature.*
-Sure, it will be an important part of our project. The function that detects heights of the user is born to give a different audioguide to the kids. "Message in the bottle" functionalities will be an important feature for kids interactivity.
+Sure, it will be an important part of our project. The function that detects heights of the user is born to give a different audioguide to the kids.  We thought of adding a "Message in the bottle" functionality in order to make the visitors interact more with the artworks
 
 -*Include the designer in the README.*
 We did it.
@@ -17,10 +17,10 @@ Design: The design was impacted by the decision to change sensors. We now will u
 
 The price of the sensors, processing power, energy consumption and performances will all benefit from this change.
 
-We also introduced the functionality "Message in the bottle" so that the users will be able to leave a short audiomessage to the next visitors. 
+We also are planning to introduce the functionality "Message in the bottle" so that the users will be able to leave a short audiomessage to the next visitors. 
 
 Architecture:
-The main difference from the architecture we thought at the beginning, is in the decision to leave AWS for Thingsboard. We evaluated the costs of the project, and thingsboard offered the functionalities we needed to a lower price. The main functionality in fact is a clean looking dashboard with a private access.
+The main difference from the architecture we thought at the beginning, is in the decision to leave AWS for Thingsboard. We evaluated the costs of the project, the latency and the versatility, and thingsboard offered the functionalities we needed for a lower price and a lower set-up time. The main functionality in fact is a clean looking dashboard with a private access.
 For what regards the boards-sensors architecture, we eliminated the use of the camera, introducing 2 height sensors in order to detect proximity and height of a visitor. We will also use the speaker via the AUDIO-OUT AUX port of the board. We will then introduce the buttons for the Message functionalit.
 
 Evaluation: 
@@ -37,21 +37,28 @@ We than have introduced the MQTT functionalities. We used the MQTT library of MB
 Finally, we tested the functionalityes of the buttons, in order to trigger different signals to the board: They will be later useful to start and reproduce the "Message in the bottle".
 
 ## List of functionalities that are missing and will be completed for the final delivery
+We will create a clean and private dashboard using thingsboard, that will represent the different statistics for each statue using different devices
 
--dashboard ciotta
+ We thought of adding a "Message in the bottle" functionality that will be triggered by button clicks
 
--Manager che se connette e mette la roba sua
+The board wil be able to play an audiomessage.
 
--miglioramenti a tutto
-
--now the board distinguish from kid to adult  and plays different tracks da finire
+The board will be able to play different audiomassages for kids and adults
 
 
 ## Evaluation conducted since the 1st delivery
 
--evaluated sensors accuracy and other and board
+We evaluated the possibility to use the camera, and we excluded it for the reasons i anticipated above.
 
+We evaluated the proximity sensors, the distance and the latency.
+
+We evaluated the latency of device to thingsboard MQTT message using ethernet connection.
 
 ## Expected evaluation for the final delivery
 
--quelle che mancane
+For the proximity sensors aspects we will evaluate: time for the detection, number of false positives and false negatives.
+
+For the Speaker we will measure: Loudness of the speaker, measured in dB
+
+Latency to the Local MQTT
+
