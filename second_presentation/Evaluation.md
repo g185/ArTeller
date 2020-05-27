@@ -13,9 +13,7 @@ For this aspect of the project we will evaluate the following:
 For this aspect of ArTeller we will evaluate the following:
 
 1. **Loudness of the speaker**, measured in dB. The speaker must not be too loud in order to not annoy uninterested people, heuristic measure
-	
-2. **Interferences among multiple speakers**, Nearby speakers must not interfere with each other, it is an heuristic measure. This should be guaranteed by our priority management algorithm
-	
+
 ## Local MQTT
 Concerning the MQTT part, we will evaluate the following:
 
