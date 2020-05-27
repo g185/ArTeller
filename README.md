@@ -53,13 +53,13 @@ This application will be accessible by the museum manager in order to retrieve m
 
 [Product idea and Evaluation plan](https://youtu.be/UAIXfbrs9bc)
 
-[Architecture and technical structure](https://www.youtube.com/watch?v=MXN0yQfvrzo&feature=youtu.be)
+[Technical Overview and Demo](https://youtu.be/O5rJv0pC5vA)
 
 ## Slides Presentations
 
 [Product idea and Evaluation plan](https://docs.google.com/presentation/d/1HV37ZbVRc_sqig5hRIGp1rsgIbGLch3qivA0lyEr9JA/edit?usp=sharing)
 
-[Architecture and technical structure](https://docs.google.com/presentation/d/1UsIeK5fOotOYBwBqqkLFyfrJRJO8R-G4MncNsd5cAZ0/edit?usp=sharing)
+[Technical overview](https://docs.google.com/presentation/d/1rHOAouzIpNxipqC9ZukflTywjJ7LOgS_C-e3z3PHzAM/edit?usp=sharing)
 
 
 
