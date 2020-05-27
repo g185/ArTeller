@@ -55,11 +55,19 @@ This application will be accessible by the museum manager in order to retrieve m
 
 [Technical Overview and Demo](https://youtu.be/O5rJv0pC5vA)
 
+[Evaluation](https://youtu.be/F3vy6Z1zMSI)
+
+[Future Plans](https://youtu.be/DGm55Wt7UZM)
+
 ## Slides Presentations
 
 [Product idea and Evaluation plan](https://docs.google.com/presentation/d/1HV37ZbVRc_sqig5hRIGp1rsgIbGLch3qivA0lyEr9JA/edit?usp=sharing)
 
 [Technical overview](https://docs.google.com/presentation/d/1rHOAouzIpNxipqC9ZukflTywjJ7LOgS_C-e3z3PHzAM/edit?usp=sharing)
+
+[Evaluation](https://docs.google.com/presentation/d/1HK_jq0i7D9JLzY8tEuJHOAnklHMRDfpChFEgsN6tgRA/edit?usp=sharing)
+
+[Future Plans and Evaluations](https://docs.google.com/presentation/d/10CI6Osf0q765iq-CN2X5n-s9VQHdUjw48I7ZUU7BJ10/edit?usp=sharing)
 
 
 
