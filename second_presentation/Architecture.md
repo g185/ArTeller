@@ -10,7 +10,7 @@ Retrieves proximity values and sends them to the STM32 Nucleo board
 Plays the audio description of the statue when the system is correctly triggered
 
 ## STM32 Nucleo board
-Processes the incoming proximity values to detect people. The system will start the activation protocol whenever it detects an interested user. In order to define an "interested" user, we will use an algorithm that will also detect the height of the visitor, in ordder to play a different audio track.
+Processes the incoming proximity values to detect people. The system will start the activation protocol whenever it detects an interested user. In order to define an "interested" user, we will use an algorithm that will also detect the height of the visitor, in order to play a different audio track.
 
 # Cloud Infrastructure
 ## Thingsboard
