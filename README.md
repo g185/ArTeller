@@ -2,7 +2,7 @@
 
 # Brief Decription
 The aim of ArTeller is to provide a free audioguide service to the Sapienza Museum visitors, while providing useful insights to the museum manager.
-The idea consists in locating a device in proximity of each statue which will look for interested people through face detection. Once it has detected one or more users, it will start to play the audiodescription for the given opera.
+The idea consists in locating a device in proximity of each statue which will look for interested people through proximity sensors. Once it has detected one or more users, it will start to play the audiodescription for the given opera.
 This application will be accessible by the museum manager in order to retrieve meaningful statistics about the different engagement rates of the operas.
 
 # Authors
