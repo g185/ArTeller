@@ -49,17 +49,41 @@ are now sent via the aux output to an external speaker.
 
 ## Brief presentation of the evaluation conducted since the 2nd delivery
 
+- Proximity Sensors
+	
+1. **Time for the detection**, the time period that occurs between the moment in which the user is front of the sensor and when its presence is detected. 
 
-We evaluated the possibility to use the camera, and we excluded it for the reasons i anticipated above.
+2. **Number of false positives**, the system has to be triggered only if the person is interested in the statue.
 
-We evaluated the proximity sensors, the distance and the latency.
+3. **Number of false negatives**, the system must be triggered if a user is standing in front of the camera sensor. 
 
-We evaluated the latency of device to thingsboard MQTT message using ethernet connection.
+- Cloud infrastructure
+	
+1. **Latency**, The remote broker must be fast in order to generate insights for the museum manager.
 
-## Expected evaluation for the final delivery
+2. **Dashboard usability** , We want our dashboard to be usable and understandable by our target users.
 
-For the proximity sensors aspects we will evaluate: time for the detection, number of false positives and false negatives.
 
-For the Speaker we will measure: Loudness of the speaker, measured in dB
+- User Experience
+
+The controlled experiments we conducted with potential users of the system. The feedbacks we received are generally positive and the system respected the heuristics we took under consideration. However, we also received some suggestions for possible problematics and functionalities that can be implemented. One of which was the possibility to stop in some way the audio, once it has started.
+
+- Overall cost of the system
+
+The board we used has a cost of around 45.However, since we ended up not taking advantage it brings, like the internal SD card reader (which was broken) and the ARM cortex, we could have used a cheaper device. The cost of our HY-SRF05 sensors is of around 2,50€ each; while the SD card reader is of around 7€. 
+
+The cloud infrastructure is actually free.
+
+## A brief list of the functionality that is still missing and which you aspect you did not manage to evaluate
+
+- Pasquino
+
+ A possible functionality of the systemis the possibility for the users to leave audio messages to the statue.
+Thanks to the microphone equipped on our board, the museum visitors would be able to leave audio messages by simply clicking a button, and to play the latest message left from other users. by clicking a different button.
+We still need to fully evaluate the feasibility of this functionality (especially in terms of possible bad behaviours from the users) before implementing and testing it.
+
+- Possibility to stop
+
+- Real Users Questionnaire
 
 
