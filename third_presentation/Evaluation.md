@@ -31,6 +31,7 @@ Some heuristics will be:
 	
 3. **The system gives an appropriated feed-back**
 
+## Overall cost of the system
 
 # Results
 
@@ -56,7 +57,9 @@ Some heuristics will be:
 3. **The system gives an appropriated feed-back**
 
 
-## History
+## Overall cost of the system
+
+# History
 [First Delivery Evaluation](https://github.com/g185/ArTeller/blob/master/first_presentation/Evaluation.md)
 
 [Second Delivery Evaluation](https://github.com/g185/ArTeller/blob/master/second_presentation/Evaluation.md)
