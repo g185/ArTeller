@@ -9,7 +9,6 @@ The idea consists in locating a device in proximity of each statue which will lo
 Our goal is to distinguish kids from adults using their height, in order to give them a personalized audioguide.
 Once the proximity system is triggered by interested visitors, lt will start to play the audiodescription for the given opera.
 
-T
 A web application will be accessible by the museum manager in order to retrieve meaningful statistics about the different engagement rates of the operas.
 
 ## User Personas 
