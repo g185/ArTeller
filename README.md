@@ -17,7 +17,15 @@ This application will be accessible by the museum manager in order to retrieve m
 [Pegah Pedramfar](https://www.linkedin.com/in/pegah-pedramfar-71a636101)
 
 # Final  Delivery
+
+
+## Blog Post
+
+
+
 ## Details
+[Delivery](https://github.com/g185/ArTeller/tree/master/3rd_delivery.md)
+
 
 [Design](https://github.com/g185/SmartMuseum/blob/master/third_presentation/Design.md)
 
@@ -29,10 +37,13 @@ This application will be accessible by the museum manager in order to retrieve m
 ## Video Demostrations
 
 ## Slides Presentations
-
+[Slides](https://docs.google.com/presentation/d/190n_7_SWFXU_rYGrV0wYi9h2k1jj34DpRE9J6KvTNqU/edit?usp=sharing)
 
 
 # Second  Delivery
+
+[Delivery](https://github.com/g185/ArTeller/tree/master/2nd_delivery.md)
+
 ## Details
 
 [Design](https://github.com/g185/SmartMuseum/blob/master/second_presentation/Design.md)
