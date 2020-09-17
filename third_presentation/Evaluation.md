@@ -25,11 +25,11 @@ For this aspect of the project we will evaluate the following:
 To evaluate the user experience we will use a review based method on  controlled experiments performed with the help of some potential users.
 Some heuristics will be:
 
-1. The system is prevedible
+1. **The system is prevedible**
 
-2. The system is consistent
+2. **The system is consistent**
 	
-3. The system gives an appropriated feed-back
+3. **The system gives an appropriated feed-back**
 
 
 # Results
@@ -49,11 +49,11 @@ Some heuristics will be:
 
 ## User Experience
 
-1. The system is prevedible
+1. **The system is prevedible**
 
-2. The system is consistent
+2. **The system is consistent**
 	
-3. The system gives an appropriated feed-back
+3. **The system gives an appropriated feed-back**
 
 
 ## History
