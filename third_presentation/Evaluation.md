@@ -9,7 +9,7 @@ For this aspect of the project we will evaluate the following:
 
 2. **Number of false positives**, the system has to be triggered only if the person is interested in the statue. A person that is just walking nearby would not trigger the system. It is an heuristic measure, a good threshold could be at 80%
 
-3. **Number of false negatives**, the system must be triggered if a user is standing in front of the camera sensor. It is an heuristic measure too, and a good threshold could be at 95%
+3. **Number of false negatives**, the system must be triggered if a user is standing in front of the camera sensor. It is an heuristic measure too, and a good threshold could be at 85%
 
 
 ## Cloud infrastructure
@@ -36,28 +36,30 @@ Some heuristics will be:
 # Results
 
 ## Proximity Sensors
-1. **Time for the detection**,
+1. **Time for the detection**, We conducted numerous hands-on experiment to empirically determine a time range that could be feasible for our user case, and we determine it to be 4 seconds long.
 
-2. **Number of false positives**,
+2. **Number of false positives**, We conducted 300 measurements as a test, and actually never experienced a false positive measurement. 
 
-3. **Number of false negatives**,
+3. **Number of false negatives**,We conducted 300 measurements as a test, and experienced 28 false negative measurements, which was better than our prescribed goal of it being under 85%. 
+
 
 ## Cloud infrastructure
 
-1. **Latency**,
+1. **Latency**, We tested the latency of our system under different circumstances, and found out it to be consistently under 1 second.
 
-2. **Dashboard usability** , 
+2. **Dashboard usability** , we conducted a controlled experiment involving users with the same technological skills as our potential users, and from it we extracted some suggestions for the design of our dashboard, like the use of charts and visual representation of data.
 
 ## User Experience
 
-1. **The system is prevedible**
-
-2. **The system is consistent**
-	
-3. **The system gives an appropriated feed-back**
+The controlled experiments we conducted with potential users of the system. The feedbacks we received are generally positive and the system respected the heuristics we took under consideration. However, we also received some suggestions for possible problematics and functionalities that can be implemented. One of which was the possibility to stop in some way the audio, once it has started.
 
 
 ## Overall cost of the system
+
+The board we used has a cost of around 45.However, since we ended up not taking advantage it brings, like the internal SD card reader (which was broken) and the ARM cortex, we could have used a cheaper device. The cost of our HY-SRF05 sensors is of around 2,50€ each; while the SD card reader is of around 7€. 
+
+The cloud infrastructure is actually free.
+
 
 # History
 [First Delivery Evaluation](https://github.com/g185/ArTeller/blob/master/first_presentation/Evaluation.md)
