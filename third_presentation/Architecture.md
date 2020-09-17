@@ -36,6 +36,8 @@ Processes the incoming proximity values to detect people. The system will start 
 # Cloud Infrastructure
 ## Thingsboard
 We will use Thingsboard MQTT broker in order to retrieve messages from the museum. we will then display them using the device dashboards that can be implemented with different widget and statistics from Thingsboard administrator. 
+Values will be used for computing useful insights, in particular for what concerns the opera’s engagement rate (for example interacting visitors per hour). The result of this step will also be visible on the same dashboard
+
 
 
 # History
