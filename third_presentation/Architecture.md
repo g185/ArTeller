@@ -4,7 +4,7 @@
 
 # IoT Edge Infrastructure
 ## Ultrasonic Proximity Sensor
-![sensors](https://github.com/g185/SmartMuseum/blob/master/assets/sensors.jpg)
+![sensors](https://github.com/g185/SmartMuseum/blob/master/assets/sensors.jpg =250x)
 
 In order to detect the presence of a user, we are using HY-SRF05 proximity sensors. These are ultrasonic proximity sensors, with a 2cm-450cm distance detection range and 2mm of precision.
 The retrieved proximity values are then sent to the STM32 Nucleo board.
