@@ -4,7 +4,7 @@
 
 # IoT Edge Infrastructure
 ## Ultrasonic Proximity Sensor
-![sensors](https://github.com/g185/SmartMuseum/blob/master/assets/sensors.jpg =250x)
+![sensors](https://github.com/g185/SmartMuseum/blob/master/assets/sensors.jpg )
 
 In order to detect the presence of a user, we are using HY-SRF05 proximity sensors. These are ultrasonic proximity sensors, with a 2cm-450cm distance detection range and 2mm of precision.
 The retrieved proximity values are then sent to the STM32 Nucleo board.
@@ -36,6 +36,8 @@ Processes the incoming proximity values to detect people. The system will start 
 # Cloud Infrastructure
 ## Thingsboard
 We will use Thingsboard MQTT broker in order to retrieve messages from the museum. we will then display them using the device dashboards that can be implemented with different widget and statistics from Thingsboard administrator. 
+Values will be used for computing useful insights, in particular for what concerns the opera’s engagement rate (for example interacting visitors per hour). The result of this step will also be visible on the same dashboard
+
 
 
 # History
