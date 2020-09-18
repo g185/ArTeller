@@ -77,13 +77,15 @@ The cloud infrastructure is actually free.
 ## A brief list of the functionality that is still missing and which you aspect you did not manage to evaluate
 
 - Pasquino
-
  A possible functionality of the systemis the possibility for the users to leave audio messages to the statue.
 Thanks to the microphone equipped on our board, the museum visitors would be able to leave audio messages by simply clicking a button, and to play the latest message left from other users. by clicking a different button.
 We still need to fully evaluate the feasibility of this functionality (especially in terms of possible bad behaviours from the users) before implementing and testing it.
 
 - Possibility to stop
+After out controlled experiments we received some important feedback and questions to stop the audio player. A possible solution might be the implementation of a button that stops the audio player. This problem is not correlated with false positives of the sensors, in fact this kind of problem didn't emerge in our tests, but more with the fact that sometimes the user could trigger involountarily the audio player and wants to stop the long audioguide.
 
 - Real Users Questionnaire
+An evaluation that we didn't apply is the use of questionnaires on real visitor of the sapienza museum, for evident problems of logistics and time. 
+
 
 
