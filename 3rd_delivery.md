@@ -84,6 +84,9 @@ We still need to fully evaluate the feasibility of this functionality (especiall
 - Possibility to stop
 After out controlled experiments we received some important feedback and questions to stop the audio player. A possible solution might be the implementation of a button that stops the audio player. This problem is not correlated with false positives of the sensors, in fact this kind of problem didn't emerge in our tests, but more with the fact that sometimes the user could trigger involountarily the audio player and wants to stop the long audioguide.
 
+- Improve Audio Quality
+Audio quality on this board is noisy and mantain an high pitch, causing the audio to be sometimes disturbed. We think an improvement that we can make to the project is to use a different board that make possible to play audio files without distortion or noise.
+
 - Real Users Questionnaire
 An evaluation that we didn't apply is the use of questionnaires on real visitor of the sapienza museum, for evident problems of logistics and time. 
 
