@@ -3,14 +3,6 @@
 ![architecture](https://github.com/g185/SmartMuseum/blob/master/assets/architecture_3.jpg)
 
 # IoT Edge Infrastructure
-## Ultrasonic Proximity Sensor
-![sensors](https://github.com/g185/SmartMuseum/blob/master/assets/sensors.jpg )
-
-In order to detect the presence of a user, we are using HY-SRF05 proximity sensors. These are ultrasonic proximity sensors, with a 2cm-450cm distance detection range and 2mm of precision.
-The retrieved proximity values are then sent to the STM32 Nucleo board.
-
-## Speaker
-Plays the audio description of the statue when the system is correctly triggered
 
 ## STM32 Nucleo board
 ![board](https://github.com/g185/SmartMuseum/blob/master/assets/discoF769ni.jpeg)
@@ -31,6 +23,22 @@ We are using an STM32F769I-DISCOVERY board, that offers the following advantages
 
 Processes the incoming proximity values to detect people. The system will start the activation protocol whenever it detects an interested user. In order to define an "interested" user, we will use an algorithm that will also detect the height of the visitor, in order to play a different audio track.
 
+## Ultrasonic Proximity Sensor
+![sensors](https://github.com/g185/SmartMuseum/blob/master/assets/sensors.jpg )
+
+In order to detect the presence of a user, we are using HY-SRF05 proximity sensors. These are ultrasonic proximity sensors, with a 2cm-450cm distance detection range and 2mm of precision.
+The retrieved proximity values are then sent to the STM32 Nucleo board.
+
+## Speaker
+We utilize a speaker connected with an AUX cable to our board's built-in audio line jack. Therefore it is controlled by the board.
+
+## SD Card Reader
+
+![sensors](https://github.com/g185/SmartMuseum/blob/master/assets/SD-card-read.jpg )
+
+We utilize an external SD Card Reader, connected to the board with Arduino connection. We decided to use an external reader instead of the built-in one our board is equipped with, since it gave us multiple problems with software compatibilities with mbed-os and the external libraries we are using for the other functionalities of our system.
+
+On the SD Card, is stored a Fat File System that contains the audio .wav files we need to play. Whenever we need to play an audio, the required file is retrieved from the SD card  and played through the audio jack output line in our board.
 
 
 # Cloud Infrastructure
