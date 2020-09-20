@@ -31,7 +31,11 @@ Some heuristics will be:
 	
 3. **The system gives an appropriated feed-back**
 
+## Multile devices
+We want to evaluate whever our cloud MQTT broker is capale of working even when multiple devices are sending messages to it.
+
 ## Overall cost of the system
+We want to evaluate the cost of our system.
 
 # Results
 
@@ -53,6 +57,8 @@ Some heuristics will be:
 
 The controlled experiments we conducted with potential users of the system. The feedbacks we received are generally positive and the system respected the heuristics we took under consideration. However, we also received some suggestions for possible problematics and functionalities that can be implemented. One of which was the possibility to stop in some way the audio, once it has started.
 
+## Multiple devices
+We created a demo that utilizes a python script to simulate the presence of multiple devices sending messages to our ThingsBoard's broker. This demo was done to test the scalability of our project. From our tests we understood that ThingsBoard is fully capable of work without any issues with multiple devices.  
 
 ## Overall cost of the system
 
