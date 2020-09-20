@@ -71,7 +71,7 @@ The controlled experiments we conducted with potential users of the system. The 
 
 - Multiple devices
 
-We created a demo that utilizes a python script to simulate the presence of multiple devices sending messages to our ThingsBoard's broker. This demo was done to test the scalability of our project. From our tests we understood that ThingsBoard is fully capable of work without any issues with multiple devices.  
+We created a demo that utilizes a python script to simulate the presence of multiple devices sending messages to our ThingsBoard's broker. This demo was done to test the scalability of our project. From our tests we understood that ThingsBoard is fully capable of work without any issues with multiple devices. We have also created a new dashboard that shows the data from the different devices, in addition to the previous one we ass, that only showed data coming from a single device.
 
 - Overall cost of the system
 
