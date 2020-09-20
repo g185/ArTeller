@@ -41,6 +41,11 @@ This application will be accessible by the museum manager in order to retrieve m
 [Slides](https://docs.google.com/presentation/d/190n_7_SWFXU_rYGrV0wYi9h2k1jj34DpRE9J6KvTNqU/edit?usp=sharing)
 
 
+## Dashboards
+[Demo dashboard for a single device](https://demo.thingsboard.io/dashboard/e980d400-9f6c-11ea-a444-2bf3676161a3?publicId=71a3a600-6a11-11ea-ad02-b3576b7d39f1)
+
+[Demo dashboard fro multiple devices](https://demo.thingsboard.io/dashboard/df20e930-fb21-11ea-87cb-63c0c2facd3b?publicId=71a3a600-6a11-11ea-ad02-b3576b7d39f1)
+
 # Second  Delivery
 
 [Delivery](https://github.com/g185/ArTeller/tree/master/2nd_delivery.md)
