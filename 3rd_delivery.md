@@ -40,8 +40,7 @@ children and adults that have triggered the sistem.
 
 Bug fixing on ethernet connection, that we experced during tests and fixed using mbed-os new firmware
 
-The main difficulties that we experienced were caused by the internal sd card reader. We realized that it was broken, so we decided to buy a new reader.
-The integration of the new device FINISCI QUI
+The main difficulties that we experienced were caused by the internal sd card reader. We realized that the drivers offered by mbed-os were not functioning, so after 4 days of work we decided to buy a new sd card reader. The integration of the SD card reader was possible using some pre-existing libraries that made possible to create a functioning filesystem and to play audio track.
 
 Another important improvement to our sistem concern the implementation of the audio output. The wav files that are present in the SD card, when the sistem is triggered,
 are now sent via the aux output to an external speaker.
