@@ -2,6 +2,18 @@
 
 ![architecture](https://github.com/g185/SmartMuseum/blob/master/assets/architecture_3.jpg)
 
+The architecture of the project can be viewed in the scheme above. It is a simplified version in order to distinguish the different elements that compose our system. The following is just to understand the network and architecture, a more focused approach on hardware can be seen in the following chapter.
+
+We can distinguish the main Board, in our case STM32F769NI-DISCOVERY, that is the main component of our IoT system. This board is able to process data that arrives from the two proximity sensors.
+
+The proximity sensors are HY-SRF05 and use an ultrasonic system in order to detect proximity.
+
+The data that arrives on the board is the main information and is processed using an algorithm that makes us able to detect the presence of people in front of the statues.Once the system is triggered in one way by one type of user, the board starts to play an audio track associated with the type of user that triggered. The output is emitted using the AUX cable and can be compatible with every speaker available right now.
+
+Another important part of our system board regards the connection to the MQTT broker.
+
+Once it is triggered, the system other than playing the audioguide, sends a message to an MQTT broker using a LAN cable. This MQTT broker is Thingsboard, that offers a stable and easy to use interface to create dashboards and to visualize and analyze data. A deeper look at the code and functionality of the different functions we used to connect to Thingsboard can be found in the section regarding Services and Software.
+
 # IoT Edge Infrastructure
 
 ## STM32 Discovery board
