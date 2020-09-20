@@ -5,7 +5,7 @@
 ## Proximity Sensors
 For this aspect of the project we will evaluate the following:
 	
-1. **Time for the detection**, the time period that occurs between the moment in which the user is front of the sensor and when its presence is detected. Measured in milliseconds. It would be considered a success if it is under 3 seconds.
+1. **Time for the detection**, the time period that occurs between the moment in which the user is front of the sensor and when its presence is detected. Measured in milliseconds. 
 
 2. **Number of false positives**, the system has to be triggered only if the person is interested in the statue. A person that is just walking nearby would not trigger the system. It is an heuristic measure, a good threshold could be at 80%
 
