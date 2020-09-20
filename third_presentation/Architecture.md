@@ -4,7 +4,7 @@
 
 # IoT Edge Infrastructure
 
-## STM32 Nucleo board
+## STM32 Discovery board
 ![board](https://github.com/g185/SmartMuseum/blob/master/assets/discoF769ni.jpeg)
 
 
