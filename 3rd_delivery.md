@@ -11,13 +11,13 @@ Design: Design of the project was not impacted during this delivery. The functio
 
 Architecture:
 The architecture received minor changes during implementation.
-- The buttons for registration, that we implemented in order to register the message vocally, have been discharged in favour of a more feasible and dinamic 
+- The buttons for registration, that we implemented in order to register the message vocally, have been discharged in favor of a more feasible and dynamic 
 approach given by the SD card.
-Using an SD card makes possible to use an high quality audio track and a larger file dimention; furthemore in case of alimentation problems the audio tracks 
+Using an SD card makes possible to use an high quality audio track and a larger file dimension; furthermore in case of power supply problems the audio tracks 
 would be eliminated and with SD card this problem is not happening.
-Also the little dimention of the internal memory was not enough to contain long audio tracks.
+Also the little dimension of the internal memory was not enough to contain long audio tracks.
 
-- The SD card reader integrated into the board produced different problems, and after 5 days of temptatives we decided to buy a new SD external reader. 
+- The SD card reader integrated into the board produced different problems, and after 5 days of tentatives we decided to buy a new SD external reader. 
 This device can be connected using SPI pins and is well integrated with mbed-os.
 
 Evaluation: 
@@ -34,15 +34,15 @@ We started with the implementation of the user classification. This implies the 
 of the statue. The second sensor is positioned in a different height and makes possible to detect the presence of an adult. When triggered, the system will now send data 
 about the fact that the user is a child or an adult. 
 
-This data is now shown in a better looking format on the Thingsboard dashboard, that we implemented with the possibility to offer useful data and insights
-about the visitors. The widgets of Thingsboard's dashboard now show the last detected user, a real-time average number of visitors and two charts that show the number of overall
-children and adults that have triggered the sistem.
+This data is now shown in a better looking format on the ThingsBoard dashboard, that we implemented with the possibility to offer useful data and insights
+about the visitors. The widgets of ThingsBoard's dashboard now show the last detected user, a real-time average number of visitors and two charts that show the number of overall
+children and adults that have triggered the system.
 
-Bug fixing on ethernet connection, that we experced during tests and fixed using mbed-os new firmware
+Bug fixing on Ethernet connection, that we experienced during tests and fixed using mbed-os new firmware
 
-The main difficulties that we experienced were caused by the internal sd card reader. We realized that the drivers offered by mbed-os were not functioning, so after 4 days of work we decided to buy a new sd card reader. The integration of the SD card reader was possible using some pre-existing libraries that made possible to create a functioning filesystem and to play audio track.
+The main difficulties that we experienced were caused by the internal SD card reader. We realized that the drivers offered by mbed-os were not functioning, so after 4 days of work we decided to buy a new SD card reader. The integration of the SD card reader was possible using some pre-existing libraries that made possible to create a functioning file system and to play audio track.
 
-Another important improvement to our sistem concern the implementation of the audio output. The wav files that are present in the SD card, when the sistem is triggered,
+Another important improvement to our system concern the implementation of the audio output. The .wav files that are present in the SD card, when the system is triggered,
 are now sent via the aux output to an external speaker.
 
 
@@ -76,18 +76,18 @@ The cloud infrastructure is actually free.
 ## A brief list of the functionality that is still missing and which you aspect you did not manage to evaluate
 
 - Pasquino
- A possible functionality of the systemis the possibility for the users to leave audio messages to the statue.
+ A possible functionality of the system is the possibility for the users to leave audio messages to the statue.
 Thanks to the microphone equipped on our board, the museum visitors would be able to leave audio messages by simply clicking a button, and to play the latest message left from other users. by clicking a different button.
-We still need to fully evaluate the feasibility of this functionality (especially in terms of possible bad behaviours from the users) before implementing and testing it.
+We still need to fully evaluate the feasibility of this functionality (especially in terms of possible bad behaviors from the users) before implementing and testing it.
 
 - Possibility to stop
-After out controlled experiments we received some important feedback and questions to stop the audio player. A possible solution might be the implementation of a button that stops the audio player. This problem is not correlated with false positives of the sensors, in fact this kind of problem didn't emerge in our tests, but more with the fact that sometimes the user could trigger involountarily the audio player and wants to stop the long audioguide.
+After out controlled experiments we received some important feedback and questions to stop the audio player. A possible solution might be the implementation of a button that stops the audio player. This problem is not correlated with false positives of the sensors, in fact this kind of problem didn't emerge in our tests, but more with the fact that sometimes the user could trigger involuntarily the audio player and wants to stop the long audio guide.
 
 - Improve Audio Quality
-Audio quality on this board is noisy and mantain an high pitch, causing the audio to be sometimes disturbed. We think an improvement that we can make to the project is to use a different board that make possible to play audio files without distortion or noise.
+Audio quality on this board is noisy and maintains an high pitch, causing the audio to be sometimes disturbed. We think an improvement that we can make to the project is to use a different board that make possible to play audio files without distortion or noise.
 
 - Real Users Questionnaire
-An evaluation that we didn't apply is the use of questionnaires on real visitor of the sapienza museum, for evident problems of logistics and time. 
+An evaluation that we didn't apply is the use of questionnaires on real visitor of the Sapienza museum, for evident problems of logistics and time. 
 
 
 
