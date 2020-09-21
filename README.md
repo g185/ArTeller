@@ -21,7 +21,7 @@ This application will be accessible by the museum manager in order to retrieve m
 
 ## Blog Post
 
-
+[Blog post on LinkedIn](https://www.linkedin.com/pulse/arteller-smart-audioguide-service-designed-sapienza-martinelli/?trackingId=cdVVPSsqTVyN2zed3JF6sg%3D%3D)
 
 ## Details
 [Delivery](https://github.com/g185/ArTeller/tree/master/3rd_delivery.md)
